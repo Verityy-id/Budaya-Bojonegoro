@@ -307,7 +307,7 @@ nav a.active {
 /* === SPIRIT SECTION === */
 .spirit {
   position: relative;
-  background: url('/images/sandur2.jpg') center/cover fixed;
+  background: url('./images/sandur2.jpg') center/cover fixed;
   color: white;
   text-align: center;
   padding: 120px 20px;
@@ -414,4 +414,5 @@ footer {
     width: 45px;
     height: 45px;
   }
+
 }
