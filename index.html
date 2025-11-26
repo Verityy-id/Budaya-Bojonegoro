@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CultureVoyage - Explore World Cultures</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- HEADER -->
+  <header id="navbar">
+    <div class="logo">🌏 Budaya Bojonegoro</div>
+    <nav>
+      <a href="index.html" class="active">Home</a>
+      <a href="daftar.html">Daftar Budaya</a>
+      <a href="berita.html">Berita</a>
+      <a href="bojonegoro.html">Profile Bojonegoro</a>
+      <a href="tentang.html" >Tentang Kami</a>
+    </nav>
+  </header>
+
+  <!-- HERO WITH SLIDER -->
+  <section class="hero">
+    <div class="hero-slider">
+      <div class="slide active" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url('/images/wadukpacal.jpg');"></div>
+      <div class="slide" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url('/images/sandur2.jpg');"></div>
+      <div class="slide" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url('/images/sandur.jpg');"></div>
+      <div class="slide" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url('/images/tayub.jpg');"></div>
+    </div>
+    
+    <!-- Slider Controls -->
+    <button class="slider-btn prev" id="prevBtn">‹</button>
+    <button class="slider-btn next" id="nextBtn">›</button>
+    
+    <!-- Slider Indicators -->
+    <div class="slider-indicators">
+      <span class="indicator active" data-slide="0"></span>
+      <span class="indicator" data-slide="1"></span>
+      <span class="indicator" data-slide="2"></span>
+      <span class="indicator" data-slide="3"></span>
+    </div>
+
+    <div class="hero-content">
+      <h1>Discover the Beauty of Bojonegoro Cultures</h1>
+      <p>Explore traditions, heritage, and hidden stories behind the Bojonegoro cultures.</p>
+      <button id="exploreBtn">Start Exploring</button>
+    </div>
+  </section>
+
+  <!-- DESTINATIONS -->
+  <section class="destinations" id="destinations">
+    <h2>Explore And Learn Bojonegoro Culture</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="/images/sandur.jpg" alt="Sandur">
+        <h3>Sandur, Bojonegoro</h3>
+        <p>Spiritual, art, and the Relationship Between God and Humans.</p>
+        <a href="sandur.html" class="btn">Learn More</a>
+      </div>
+      <div class="card">
+        <img src="/images/tayub.jpg" alt="tayub">
+        <h3>Tayub, Bojonegoro</h3>
+        <p>Dancing in Harmony, Javanese Tradition, and The Rhythm Of Unity.</p>
+        <a href="tayub.html" class="btn">Learn More</a>
+      </div>
+      <div class="card">
+        <img src="/images/thengul.jpg" alt="thengul">
+        <h3>Tari Thengul, Bojonegoro</h3>
+        <p>Graceful Movement, Vibrant Tradition, Bojonegoro Cultures.</p>
+        <a href="taritengul.html" class="btn">Learn More</a>
+      </div>
+      <div class="card">
+        <img src="/images/tariapi.jpg" alt="Tari Api">
+        <h3>Tari Khayangan Api</h3>
+        <p>The Dance Of Eternal Fire.</p>
+        <a href="tarikayangan.html" class="btn">Learn More</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="spirit">
+    <div class="overlay"></div>
+    <div class="spirit-content">
+      <h2>Spirit of Bojonegoro</h2>
+      <p>Where tradition meets soul, and every movement tells a story. Feel the essence of Bojonegoro's living culture.</p>
+      <a href="daftar.html" class="btn-outline">Discover More</a>
+    </div>
+  </section>
+
+  <!-- BACK TO TOP BUTTON -->
+  <button id="back-to-top">↑</button>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 Jaffan Ahnaf 33 Sulthon Jamil 05. Sharing Cultures, Connecting People.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
