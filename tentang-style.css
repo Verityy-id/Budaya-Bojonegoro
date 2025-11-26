@@ -53,7 +53,7 @@ nav a.active {
 .hero {
   position: relative;
   background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)),
-                    url('/images/wadukpacal.jpg');
+                    url('./images/wadukpacal.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -450,4 +450,5 @@ footer {
   .contact-form {
     padding: 30px 20px;
   }
+
 }
